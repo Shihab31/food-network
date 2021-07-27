@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#banner-area {
+    padding: 80px 0;
+}
+.top-banner {
+    display: flex;
+    align-items: center;
+}
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+.half-width h1 {
+    font-size: 59px;
+    color: #575757;
+    line-height: 30px;
+}
+.half-width p {
+    color: #828282;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.half-width h1 span {
+    color:#FB934A;
+}
+.half-width a {
+    background: linear-gradient(45deg, #FBA24F, #FF1E1E);
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+    
+}
+/* about area style css */
+#about-area {
+    background: url('assets/images//shapes/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-bg {
+    padding-top: 50px;
+}
+.about-bg img{
+    width: 65%;
+}
+
+
+/* Recepie Area style */
+.recepie-area {
+    padding: 80px 0;
+}
+.recepie-info {
+    text-align: center;
+}
+.recepie-info h1 {
+    font-size: 59px;
+    color: #575757;
+    font-weight: 700;
+}
+.recepie-info p {
+    color: #252525;
+    width: 40%;
+    margin: auto;
+    font-size: 18px;
+    line-height:136.4%;
+    margin-bottom: 25px;
+}
+
+.recepie-gradient {
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+
+.recepe-gradient-detail {
+    width: 28%;
+    box-shadow: 3px 2px 9px #888888;
+    border-radius: 10px;
+    padding: 15px;
+}
+.recepe-gradient-detail img {
+    width: 100%;
+}
+.recepe-gradient-detail h2 {
+    font-size: 28px;
+    color: #18191F;
+    font-weight: 700;
+}
+.recepe-gradient-detail p {
+    color: #18191F;
+    font-size: 18px;
+    line-height:136.4%;
+}
+
+/* Counter area style here */
+.counter-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 7px 18px gray;
+    width: 97%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+.counter {
+    width: 30%;
+    text-align: center;
+}
+.counter h1 {
+    font-size: 48px;
+    color: #18191F;
+    font-weight: 700;
+}
+.counter p {
+    font-size: 16px;
+    color: #18191F;
+}
+
+/* footer area style */
+footer {
+    background-color: #0B0D17;
+    padding: 20px 0;
+}
+.footer-text {
+    text-align: center;
+}
+.footer-text h1 {
+    color: #5B5B5B;
+    font-size: 30px;
+}
+.footer-text span {
+    color: #FBA24F;
+}
+.footer-text p {
+    color: #fff;
+    font-size: 16px;
+}
