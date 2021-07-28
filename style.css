@@ -111,17 +111,18 @@ body {
     margin: auto;
     border-radius: 10px;
     margin-top: 50px;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 .main-counter {
     width: 30%;
     text-align: center;
 }
-.main-counter h1 {
+.main-counter span {
     font-size: 48px;
     color: #18191F;
     font-weight: 700;
 }
+
 .main-counter p {
     font-size: 16px;
     color: #18191F;
